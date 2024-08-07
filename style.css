@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.navbar-container {
+  padding: 50px 100px;
+  position: relative;
+}
+
+.navbar-container div ul {
+  list-style-type: none;
+  position: absolute;
+  left: 33%;
+  bottom: 70px;
+  display: flex;
+  margin: 0px;
+}
+
+.navbar-container div ul li {
+  margin-right: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Orbitron";
+  height: 30px;
+  border: none;
+}
+.navbar-container div ul li:hover {
+  border-bottom: 2px solid #000;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 60px;
+  left: 90%;
+}
+.button-group > .search-icon svg {
+  position: absolute;
+  right: 80px;
+  bottom: 12px;
+  width: 25px;
+  height: 25px;
+}
+.button-group > div > .nav-button {
+  position: absolute;
+  bottom: 10px;
+  left: -70px;
+  padding: 6px 34px;
+  border-radius: 9px;
+  background-color: #fff;
+}
+
+.hero-container-right {
+  position: absolute;
+  left: 44%;
+  bottom: 30%;
+  width: 950px;
+  text-align: center;
+}
+
+.hero-heading {
+  font-size: 70px;
+  font-family: "Orbitron";
+}
+
+.hero-description {
+  width: 700px;
+  margin-left: 120px;
+}
+
+.button-email {
+  background-color: #fff;
+  padding: 5px 18px;
+  border-radius: 9px;
+  font-size: 16px;
+  /* margin-top: 70px; */
+  font-family: "Orbitron";
+  margin-right: 10px;
+  position: relative;
+  top: 60px;
+}
+.button-join {
+  position: relative;
+  top: 60px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 6px;
+  border-radius: 9px;
+  font-size: 16px;
+  border: none;
+  /* margin-top: 70px; */
+  font-family: "Orbitron";
+}
+
+.contact-heading {
+  position: relative;
+  top: 180px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #969696;
+  margin-bottom: 9px;
+}
+
+.icons > span > img {
+  position: relative;
+  top: 190px;
+  margin-right: 9px;
+  width: 30px;
+  height: 30px;
+}
+
+.star > img {
+  position: absolute;
+  right: 160px;
+  top: 200px;
+  width: 60px;
+}
+
+.star2 > img {
+  position: absolute;
+  left: 46%;
+  bottom: 110px;
+  width: 50px;
+}
+
+.globe > img {
+  position: absolute;
+  left: 57%;
+  top: 148px;
+  width: 60px;
+}
+
+.hero-container > div > img {
+  position: absolute;
+  left: 108px;
+  top: 22%;
+  height: 600px;
+  /* width: 600px; */
+}
+
+.square > img {
+  position: absolute;
+  left: 260px;
+  bottom: 42px;
+}
